@@ -1,3 +1,11 @@
+html, body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 *{
     margin:0;
     padding:0;
@@ -280,10 +288,12 @@ form .input-box{
     font-size: 1.5em;
 }
 form input{
-    font-size:1.3em;
-    padding:8px 5em;
-    border-radius: 0.5em;
-    border: none;
+    font-size:1.1em;
+    padding:0.8em 1em;
+    width:100%;
+    max-width:400px;
+    border-radius:0.5em;
+    border:none;
     outline:none;
     background-color: rgba(255, 255, 255, 0.856);
 }
@@ -338,7 +348,7 @@ footer{
 .social-icons i:hover{
     color:rgb(109, 104, 104);
 }
-@media(max-width:968px){
+@media (max-width:968px){
     section{
         padding: 8em 15%;
     }
@@ -394,7 +404,26 @@ footer{
     align-items: center;
 }
 }
-@media(max-width:768px){
+@media (max-width:768px){
+section{
+    padding:5% 5%;
+}
+
+.cursor{
+    width:100%;
+    white-space: normal;
+    font-size:20px;
+}
+
+.project-card{
+    width:90%;
+    margin:15px 0;
+}
+
+#home img{
+    width:60%;
+    max-width:250px;
+}
     #home h1{
         font-size: 2.5em;
     }
@@ -402,7 +431,7 @@ footer{
         font-size: 1.5em;
     }
     #home img{
-        width:32vw;
+        width:40vw;
     }
     #about .skills{
         gap:3em;
@@ -422,6 +451,8 @@ footer{
     footer{
         flex-direction: column;
         gap:5em;
+        width:100%;
         align-items: baseline;
+        padding:10em 5%;
     }
 }
