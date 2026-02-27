@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo"><span>Portfolio</span></a>
+        <ul class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#Contact">Contact</a>
+        </ul>
+        <svg id="menu" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#EFEFEF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        <a href="#Contact" class="btn">Contact Me</a>
+    </nav>
+    <section id="home">
+        <img src="img.jpg" alt="profile pic">
+        <div class="info-box">
+            <h1>Hello,I'm Tejavardhan</h1>
+            <h3 class="cursor typewriter-animation">Web & Python developer</h3>
+            <p>I am an AI & Data Science student learning to build intelligent systems and interactive websites.I work with Python,prompt engineering,and web technologies like HTML, CSS, and JavaScript. I focus on understanding concepts clearly and improving my skills through practical projects.</p>
+        </div>
+        <div class="btn-box">
+            <div class="btn">Hire</div>
+            <div class="btn"><a href="https://www.linkedin.com/in/ramula-teja-vardhan-99a1322a5">Contact Me</a></div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-box">
+            <div class="about-info">
+                <h1 id="about-me">About Me</h1>
+                <p class="about-para"><b>"I believe in learning by doing. I build small projects to understand concepts clearly and improve step by step."</b></p>
+                                <h3>Currently Learning:</h3>
+                                <ol>
+                                    <li>Basics of Artificial Intelligence.</li>
+                                    <li>Better prompt writing.</li>
+                                    <li>Improving Python skills.</li>
+                                    <li>Building responsive websites.</li>
+                                </ol>
+            </div>
+            <h2><span>Skills</span></h2>
+            <div class="skills">
+                <ul>
+                    <li>
+                        <span><i class="bi bi-chevron-double-right"></i>HTML</span>
+                    </li>
+                    <li>
+                        <span><i class="bi bi-chevron-double-right"></i>CSS</span>
+                    </li>
+                    <li>
+                        <span><i class="bi bi-chevron-double-right"></i>JavaScript</span>
+                    </li>
+                    <li>
+                        <span><i class="bi bi-chevron-double-right"></i>React</span>
+                    </li>
+                    <li>
+                        <span><i class="bi bi-chevron-double-right"></i>Python</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+    <h2 class="section-title"><span>My Projects</span></h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>Weather App</h3>
+            <p>
+                A responsive weather application built using HTML, CSS, and JavaScript.
+                Fetches real-time weather data using API integration.
+            </p>
+            <div class="project-buttons">
+                <a href="#" class="btn">Live Demo</a>
+                <a href="https://github.com/Ramulateja/weather.git" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <h3>Calculator</h3>
+            <p>
+                A simple calculator built with HTML, CSS, and JavaScript.
+                Performs arithmetic operations with a clean UI.
+            </p>
+            <div class="project-buttons">
+                <a href="#" class="btn">Live Demo</a>
+                <a href="https://github.com/Ramulateja/calculator.git" class="btn">GitHub</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="Contact">
+    <h1 class="header"><span>Contact</span></h1>
+    <form>
+        <div class="input-box">
+            <span>Full Name</span>
+            <input type="text" placeholder="Enter Your Name">
+        </div>
+        <div class="input-box">
+            <span>Your Email</span>
+            <input type="text" placeholder="Enter Your Email">
+        </div>
+        <div class="input-box">
+            <span>Your Message</span>
+            <input type="text" placeholder="Enter Your Message">
+        </div>
+        <div class="btn">Submit</div>
+    </form>
+</section>
+<footer>
+    <div class="col-left">
+        <div class="col-box">
+            <span><i class="bi bi-geo-alt"></i></span>
+            <span>Hyderabad</span>
+        </div>
+        <div class="col-box">
+            <span><i class="bi bi-telephone"></i></span>
+            <span>+91........</span>
+        </div>
+        <div class="col-box">
+            <span><i class="bi bi-envelope"></i></span>
+            <span>ramulatejavardhan6@gmail.com</span>
+        </div>
+    </div>
+    <div class="col-right">
+        <span>About My Services</span>
+        <p>I do responsive websites for the bussiness and companies and waiting for internship to do more interactive websites and learn new things</p>
+        <div class="social-icons">
+            <span>
+            <a href="https://www.linkedin.com/in/ramula-teja-vardhan-99a1322a5" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </span>
+            <span>
+            <a href="https://github.com/Ramulateja" target="_blank"><i class="bi bi-github"></i></a>
+            </span>
+            <span>
+            <a href="https://www.facebook.com/ramulatejavardhan" target="_blank"><i class="bi bi-facebook"></i></a>
+            </span>
+            <span>
+            <a href="https://www.instagram.com/mr_tej.18?igsh=YmM1bHdsZzg0MWtz" target="_blank"><i class="bi bi-instagram"></i></a>
+            </span>
+        </div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
