@@ -472,3 +472,21 @@ section{
         padding:10em 5%;
     }
 }
+/* icons coloring */
+#htmlicon{
+    color: rgb(255, 140, 0);
+}
+#cssicon{
+    color: #5dbbff;
+}
+#jsicon {
+    color:#F7DF1E;
+}
+#reacticon{
+    color: #5ae0f8;
+}
+#pythonicon{
+    background: linear-gradient(to bottom,#002aff,rgb(255, 255, 0));
+    background-clip:text;
+    color: transparent;
+}
