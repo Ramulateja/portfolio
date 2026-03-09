@@ -247,8 +247,8 @@ section{
     flex-wrap: wrap;
 }
 .projects-container{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
 }
 .project-card {
     background-color: #5791e3;
