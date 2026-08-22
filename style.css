@@ -138,7 +138,7 @@ section{
 .info-box h1{
     font-size: 55px;
     font-weight: 400;
-    background: linear-gradient(to right, rgb(255, 81, 0), rgb(81, 235, 240));
+    background:rgb(0, 217, 255);
     background-clip: text;
     color: transparent;
     margin-bottom: 10px;
@@ -159,8 +159,8 @@ section{
     gap:1em;
 }
 .btn-box .btn:nth-of-type(2){
-    background-color: white;
-    color: var(--background);  /*using the var() we can use the property again and again any place in css */
+    background-color: rgb(0, 0, 0);
+    color:rgb(0, 242, 255);  /*using the var() we can use the property again and again any place in css */
 }
 .btn-box .btn:nth-of-type(2):hover{
     background-color: var(--background);
@@ -180,7 +180,7 @@ section{
     gap:2em;
 }
 #about-me{
-    color: rgb(73, 123, 241);
+    color: rgb(232, 178, 53);
     font-size: 40px;
 }
 .about-box p{
@@ -212,7 +212,7 @@ section{
     font-weight: 500;
     display: flex;
     flex-direction:column;
-    color: white;
+    color: rgb(211, 123, 123);
     opacity:1.5;
     align-items: baseline;
 }
@@ -220,7 +220,7 @@ section{
     display: flex;
     align-items: center;
     gap:0.5em;
-    color: rgb(108, 255, 118);
+    color: rgb(255, 169, 108);
     font-size: 1.3em;
     transition: 0.3s ease-in-out;
 }
@@ -245,7 +245,7 @@ section{
     grid-template-columns: 280px 280px 280px;
 }
 .project-card {
-    background-color: #5791e3;
+    background-color: #44e7f9;
     padding: 20px;
     width: 250px;
     border-radius: 15px;
@@ -255,7 +255,7 @@ section{
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.936);
+    box-shadow: 0px 10px 20px rgba(243, 42, 42, 0.936);
 }
 
 .project-card a {
@@ -264,13 +264,13 @@ section{
     padding: 8px 12px;
     text-decoration: none;
     border: 1px solid rgb(82, 27, 27);
-    color: rgb(166, 255, 0);
+    color: rgb(2, 7, 7);
     border-radius: 5px;
     transition: 0.3s;
 }
 
 .project-card a:hover {
-    background-color: rgb(79, 97, 135);
+    background-color: rgb(2, 226, 255);
     color: #f6ff00;
 }
 #contact{
@@ -295,15 +295,19 @@ form .input-box{
 form input{
     font-size:1.1em;
     padding:0.8em 1em;
-    width:100%;
+    width:300px;
+    height: 40px;
     max-width:400px;
     border-radius:0.5em;
     border:none;
     outline:none;
-    background-color: rgba(255, 255, 255, 0.856);
+    background-color: rgba(17, 18, 19, 0.856);
 }
 form input:focus{
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color: rgba(67, 65, 65, 0.603);
+}
+.foot{
+    color: #3FB8AF;
 }
 footer{
     display: flex;
